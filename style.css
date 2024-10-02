@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url(./DALL·E\ 2024-09-30\ 16.46.19\ -\ A\ beautiful\ landscape\ featuring\ a\ serene\ lake\ surrounded\ by\ tall\ mountains\,\ lush\ green\ trees\,\ and\ a\ clear\ blue\ sky.\ The\ sun\ is\ setting\,\ casting\ a\ warm.webp) no-repeat center/cover;
+    
+    
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.text1{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+.b{
+  
+width: 900px;
+height: 50px;
+border-radius: 50px;
+
+display: flex;
+margin: auto;
+margin-left: 260px;
+
+margin: auto;
+margin-top: 20px;
+box-shadow: 3px 1px 3px 1px;
+border: none;
+
+
+
+font-size: 20px;
+}
+
+input{
+
+    width: 900px;
+    height: 50px;
+    border-radius: 50px;
+    
+    
+    left: 0;
+    padding: 0 40px 0 50px;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px;
+    border: none; 
+}
+input::placeholder{
+    padding: 40px;
+    font-size: 18px;
+    padding: 0px 0px 0px 60px;
+    position: absolute;
+    transform: translate(-20% 50%);
+
+  
+}
+i{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30px;
+   
+}
+
+i{
+    position: absolute;
+    z-index: 1;
+}
+.r {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    right: 350px;
+}
+
+.fa-camera {
+    padding-left: 30px;
+}
+
+.aylana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+    background-color: white;
+    
+   
+    
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.fa-youtube{
+    padding: 0px 27px 15px 0px;
+
+}
+
+
+
+
+
+.aylana::before {
+    content: '';                  
+    position: absolute;           
+    top: 340px;                   
+    left: ;                       
+    width: 80px;                   
+    height: 80px;                  
+     
+    transition: background-color 0.3s ease;
+    border-radius: 10px;         
+}
+
+.aylana:hover::before {
+    box-shadow: 0px 0px 5px 1px; 
+    border-radius: 10px;  
+    background-color: rgba(240, 233, 233, 0.459);        
+}
+.yu{
+    margin-top: 80px;
+}
+
+
+.aylana2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+    background-color: white;
+    
+   
+    
+    margin-top: -50px;
+    margin-left: 615px;
+
+}
+.fa-github{
+    padding: 0px 70px 5px 0px;
+
+}
+
+.aylana2::before {
+    content: '';                  
+    position: absolute;           
+    top: 340px;                   
+    left: 600px;                       
+    width: 80px;                   
+    height: 80px;                  
+     
+    transition: background-color 0.3s ease;
+    border-radius: 10px;         
+}
+
+.aylana2:hover::before {
+    box-shadow: 0px 0px 5px 1px; 
+    border-radius: 10px;   
+    background-color: rgba(250, 248, 248, 0.397);       
+}
+
+.gi{
+    margin-top: 80px;
+    margin-left: 76x;
+}
+.fa-github{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+
+
+.aylana3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+    background-color: white;
+    
+   
+    
+    margin-top: -50px;
+    margin-left: 730px;
+
+}
+.fa-facebook{
+    padding: 0px 70px 5px 0px;
+
+}
+
+.aylana3::before {
+    content: '';                  
+    position: absolute;           
+    top: 340px;                   
+    left: 715px;                       
+    width: 80px;                   
+    height: 80px;                  
+     
+    transition: background-color 0.3s ease;
+    border-radius: 10px;         
+}
+
+.aylana3:hover::before {
+    box-shadow: 0px 0px 5px 1px; 
+    border-radius: 10px;
+    background-color: rgba(253, 253, 253, 0.363);          
+}
+
+.fa{
+    margin-top: 80px;
+    margin-left: 5px;
+}
+.fa-facebook{
+    margin-left: 70px;
+    margin-top: 4px;
+}
+
+.aylana4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+    background-color: white;
+    
+   
+    
+    margin-top: -50px;
+    margin-left: 840px;
+
+}
+.fa-instagram{
+    padding: 0px 70px 5px 0px;
+
+}
+
+.aylana4::before {
+    content: '';                  
+    position: absolute;           
+    top: 340px;                   
+    left: 825px;                       
+    width: 80px;                   
+    height: 80px;                  
+     
+    transition: background-color 0.3s ease;
+    border-radius: 10px;         
+}
+
+.aylana4:hover::before {
+    box-shadow: 0px 0px 5px 1px; 
+    border-radius: 10px; 
+    background-color: rgba(255, 251, 251, 0.295);         
+}
+
+.in{
+    margin-top: 80px;
+    margin-left: 5px;
+}
+.fa-instagram{
+    margin-left: 70px;
+    margin-top: 4px;
+}
+
+
+
